@@ -1,4 +1,6 @@
 ---
 - name: show running config
-  cisco.ios.ios_command:
-    commands: show mac address-table
+  
+  tasks:
+    - cisco.ios.ios_command:
+        commands: show mac address-table
