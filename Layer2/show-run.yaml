@@ -1,2 +1,4 @@
 ---
- - some test will come here
+- name: show running config
+  cisco.ios.ios_command:
+    commands: show mac address-table
